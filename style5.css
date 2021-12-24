@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+.header {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  background-color: #14274a;
+overflow: hidden;
+}
+.hbox{
+  margin: auto;
+  width: 90%;
+
+}
+.box1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left{
+}
+.luxury{
+  float: left;
+  background-color: #E0B973;
+  border-radius: 0 0 70px 70px;
+  box-sizing: border-box;
+padding: 3%;
+}
+.luxury2{
+  /* width: 50%;
+  margin: auto; */
+}
+.luxury2 p{
+  letter-spacing: 5px;
+font-size: 12px;
+margin-left: 17%;
+margin-top: -5%;
+}
+.menu{
+  width: 50%;
+  padding-top: 4%;
+  float: right;
+  /* display: flex; */
+}
+#myDIV{
+  display: none;
+}
+.menu2 ul{
+  list-style-type: none;
+  display: flex;
+justify-content: end;
+}
+.menu2 ul li{
+  margin-left: 16%;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+.contact {
+}
+.contact2 {
+  margin: auto;
+  padding: 6%;
+}
+.contact2 h1 {
+  text-align: center;
+  font-size: calc(2vw + 50px);
+  color: white;
+}
+.cantainer2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cantainer{
+  
+}
+.cantainer2 {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid; */
+    clear: both;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #14274a;
+}
+.input1{
+    width: 97%;
+    height: 60px;
+}
+.first {
+  margin-bottom: 6%;
+}
+.first h2 {
+  font-size: 45px;
+  margin-bottom: 1%;
+}
+.first h2:hover{
+  text-decoration: underline;
+}
+.first p {
+  font-size: 30px;
+}
+.second {
+  float: left;
+  /* border: 1px solid; */
+  width: 50%;
+}
+.second P {
+  font-size: 40px;
+  line-height: 48.76px;
+}
+.map {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.map:hover{
+  text-decoration: underline;
+}
+.aero{
+  margin-left: 3%;
+}
+.third {
+    float: right;
+    /* border: 1px solid; */
+    margin-left: 13%;
+    width: 36%;
+}
+.third p{
+font-size: 25px;
+}
+.inputt{
+    width: 98%;
+    height: 200px;
+}
+.submit{
+    border: 1px solid;
+    margin-top: 3%;
+    margin-right: 2%;
+    float: right;
+    font-size: 22px;
+    padding: 4% 5%;
+    border-radius: 6px;
+    color: white;
+    background-color: #E0B973;
+    cursor: pointer;
+}
+.submit:hover{
+  background-color: #14274a;
+  color: #E0B973;
+}
+.footer{
+  width: 100%;
+  background-color: #14274a;
+  }
+  
+  
+  .footer2::after{
+      content: "";
+      display: block;
+      clear: both;
+  }
+  .footer2{
+      width: 90%;
+      /* height: 100px; */
+      margin: auto;
+      color: white;
+      padding: 4% 0;
+  
+  }
+  .tringle1{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    
+  }
+  .tringle{
+      width: 0%;
+      height: 0;
+      border-left: 75px solid transparent;
+      border-right: 75px solid transparent;
+      border-bottom: 50px solid #14274a;
+  
+  }
+    
+  .boxAA{
+      float: left;
+      width: 25%;
+  }
+  .boxAA h2{
+      font-size: 38px;
+  }
+  .boxAA h3{
+      font-size: 21px;
+      padding: 0% 10%;
+      margin-top: -2%;
+      margin-bottom: 6%;
+  }
+  .boxA p{
+  
+  }
+  .boxB{
+      float: left;
+      width: 25%;
+   
+  }
+  .boxB h4{
+      font-size: 18px;
+  }
+  
+  .boxC{
+      float: left;
+      width: 25%;
+    
+  }
+  .boxC h4{
+  font-size: 20px;
+  }
+  .fb{
+      margin-right: 8px
+  }
+  .tw{
+      margin-right: 1px
+  }
+  .in{
+      margin-right: 7px;
+  }
+  .boxD{
+      float: left;
+      width: 25%;
+  }
+  
+  .boxD p{
+      font-size: 20px;
+      margin-bottom: 12%;
+      margin-top: 3%;
+  }
+  .enter{
+      padding: 2% 5% 2% 7%;
+      color: white;
+      background: inherit;
+      border: 2px solid #E0B973;
+      width: 60%;
+  }
+  .ok{
+      padding: 2% 5%;
+  margin-left: -2.5%;
+  color: white;
+  background: #E0B973;
+  border: 2px solid #E0B973;
+  }
+  .ok:hover{
+    background-color: #14274a;
+    color: #E0B973;
+}
+  @media (max-width: 1024px){
+    .menu2 ul li {
+        margin-left: 16%;
+      }
+      .first h2 {
+        font-size: 40px;
+      }
+      .first p {
+        font-size: 21px;
+      }
+    
+      .third {
+          float: right;
+          /* border: 1px solid; */
+          margin-left: 13%;
+          width: 36%;
+      }
+      .third p{
+      font-size: 25px;
+      }
+     
+  }
+  @media (max-width: 768px){
+    .luxury{
+      float: left;
+      background-color: #E0B973;
+      border-radius: 0 0 70px 70px;
+      box-sizing: border-box;
+  padding: 6%;
+  }
+ 
+  .luxury2 p{
+      letter-spacing: 5px;
+  font-size: 12px;
+  margin-left: 17%;
+  margin-top: -5%;
+  }
+  .contact2{
+    margin: 13% 0 0 0;
+padding: 6%;
+  }
+  .contact2 h1{
+    font-size: calc(2vw + 36px);
+  }
+  .menu{
+    width: 0%;
+    padding-top: 1%;
+    float: right;
+    position: relative;
+    font-size: 30px;
+  }
+  #myDIV{
+    display: block;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+  #menu33{
+    position: absolute;
+    top: 35px;
+    right: -110px;
+    z-index: 4;
+    background: inherit;
+    
+  }
+  .open{
+    right: 0px !important;
+    transition: 0.5s;
+  }
+  .menu2 ul{
+      list-style-type: none;
+      display: grid;
+  justify-content: end;
+  }
+  .menu2 ul li{
+      margin-left: 6%;
+  } 
+  .menu2 ul li a{
+    color: #d8c8c8;
+
+}
+      .second{
+          float: none;
+          width: 100%;
+          margin-bottom: 5%;
+      }
+      .third{
+          width: 100%;
+          float: none;
+          margin-left: 0;
+      }
+      /* .first h2{
+font-size: 45px;
+      } */
+      .footer2{
+        width: 90%;
+     
+        margin: auto;
+    
+        color: white;
+        padding: 4% 0;
+    
+    }
+    .boxAA{
+        /* float: left; */
+       width: 100%;
+       margin-bottom: 2%;
+    }
+    .boxAA h2{
+        font-size: 45px;
+    }
+    .boxAA h2:hover{
+      color: #E0B973;
+    }
+    .boxAA h3:hover{
+      color: #E0B973;
+    }
+    .boxAA p:hover{
+      color: #E0B973;
+    }
+    .boxAA h3{
+        font-size: 23px;
+        padding: 0% 6%;
+        margin-top: -2%;
+        margin-bottom: 6%;
+    }
+   
+    .boxB{
+        /* float: left; */
+       width: 100%;
+        /* line-height: 40px; */
+        margin-bottom: 4%;
+    }
+    .boxB h4{
+        font-size: 18px;
+        width: 45%;
+    }
+    .boxB h4:hover{
+      text-decoration: underline;
+      color: #E0B973;
+    }
+    
+    .boxC{
+        /* float: left; */
+       width: 100%;
+        /* line-height: 40px; */
+        margin-bottom: 4%;
+        width: 27%;
+    }
+    .boxC h4{
+    font-size: 20px;
+    width: 120%;
+    }
+    .boxC h4:hover{
+      text-decoration: underline;
+      color: #E0B973;
+    }
+    
+    .boxD{
+        /* float: left; */
+       width: 100%;
+    }
+    
+    .boxD p{
+        font-size: 20px;
+    margin-bottom: 5%;
+    }
+ 
+     
+  }

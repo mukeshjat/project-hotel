@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+  .box2{
+    color: rgb(29, 13, 13);
+  }
+  .menu2 ul li a{
+    color: rgb(29, 13, 13);
+  }
+  .cantainer {
+    width: 100%;
+   
+    margin: auto;
+    margin-bottom: 5%;
+    color: #14274a;
+  }
+  .cantent {
+    width: 90%;
+    margin: auto;
+  }
+  .facilities {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  .facilities h2 {
+    font-size: 70px;
+    margin-bottom: 3%;
+  }
+  .facilities p {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .gym {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .room {
+      width: 100%;
+      object-fit: cover;
+  }
+  .text {
+    position: absolute;
+    left: 25%;
+    bottom: 0%;
+    background-color: white;
+    width: 50%;
+  }
+  .text h2{
+    font-size: calc(4vw);
+    text-align: center;
+  
+  }
+  
+  
+
+    .text {
+position: absolute;
+left: 0;
+bottom: 0%;
+background-color: #14274A;
+color: white;
+width: 100%;
+font-size: calc(2vw + 20px);
+}
+.text:hover{
+  color: #E0B973;
+}
+    .gym{
+        margin-bottom: 0;
+    }
+
+    .view {
+        border-top: 1px solid;
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+        margin-bottom: 6%;
+    }
+.view2::after{
+content: "";
+display: block;
+clear: both;
+}
+    .view2 {
+        margin: 4% 0;
+        margin: 4% 0;
+        height: 1%;
+    }
+
+    .plus {
+      border: 1px solid;
+float: left;
+margin: 0 5% 0 6%;
+border-radius: 20px;
+padding:0% 0.9% 0.3% 0.9%;
+background-color: #E0B973;
+color: white;
+font-size: 2vw;
+    }
+    .plus:hover{
+      background-color: #14274a;
+      color: #E0B
+    }
+
+    .plus2 {
+      float: left;
+      font-weight: 600;
+      margin: 0% 0 0 0;
+      font-size: calc(2vw);
+    }
+    .plus2:hover{
+      text-decoration: underline;
+    }
+
+    .plus3 {
+      border: 1px solid;
+      float: right;
+      margin-right: 9%;
+      border-radius: 5px;
+      padding: 0.4% 2% 0.4% 2%;
+      background-color: #E0B973;
+      color: white;
+      font-size: calc(2vw);
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .plus3:hover{
+      background-color: #14274a;
+      color: #E0B973;
+    }
+    .test{
+      display: flex;
+  }
+  .test2{
+      margin: auto;
+  }
+  .test2 h1{
+      text-align: center;
+      padding-bottom: 3%;
+  }
+  .test2 p{
+      text-align: center;
+      margin-bottom: 2%;
+      font-size: 22px;
+  }
+  .test2 h2{
+      text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  }
+  .aero{
+      text-align: center;
+      margin-top: 2%;
+  }
+  .aero2{
+      border: 1px solid;
+  border-radius: 9px;
+  padding: 1% 1.5%;
+  margin-right: 2%;
+  margin-left: 2%;
+  color: white;
+  background-color: #E0B973;
+  }
